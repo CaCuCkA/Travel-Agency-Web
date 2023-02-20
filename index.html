@@ -4,6 +4,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<img class="background-img" src="img/header-background.png" alt="Background" />
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,28 +12,26 @@
     <title>Document</title>
 </head>
 <body>
-    <img class="background-img" src="" alt="Background" />
     <header class="header">
         <span class="header-logo">Trello</span>
         <nav class="header-nav">
-            <a class="header-link" href="#">Review</a>
-            <a class="header-link" href="#">Tips</a>
-            <a class="header-link" href="#">Alerts</a>
-            <a class="header-link" href="#">Blog</a>
+            <a class="header-nav-link" href="#">Review</a>
+            <a class="header-nav-link" href="#">Tips</a>
+            <a class="header-nav-link" href="#">Alerts</a>
+            <a class="header-nav-link" href="#">Blog</a>
         </nav>
     </header>
     <main class="main">
         <section class="banner">
-            <div>
-                <h1 class="banner-header">Discover Your Life, Travel Where You Want</h1>
-                <p class="banner-text">Would you explore natur paradise in the world, let’s find the best destination in world with us.</p>
-            </div>
+            <h1 class="banner-title">Discover Your Life, Travel Where You Want</h1>
+            <h4 class="banner-subtitle">Would you explore natur paradise in the world, 
+                let’s find the best destination in world with us.</h4>
         </section>
        
         <section class="booking">
             <div class="booking-bar">
-                <button class="booking-bar-btn"><i class="booking-bar-icon"></i>Flight</button>
-                <button class="booking-bar-btn"><i class="booking-bar-icon"></i>Hotel</button>
+                <button class="booking-bar-btn"><img class="booking-bar-icon" src="img/plane_icon_blue.svg" alt="plane-icon">Flight</button>
+                <button class="booking-bar-btn"><img  class="booking-bar-icon" src="img/hotel_icon.svg" alt="hotel-icon">Hotel</button>
             </div>
             <div class="landing">
                 <div class="landing-cities">
@@ -45,9 +44,9 @@
                             <option value="toronto">Toronto</option>
                         </select>
                     </div>
-                    <i class="landing-cities-icon">
-
-                    </i>
+                    <div class="landing-cities-icon">
+                        <img class="landing-cities-icon-img" src="img/plane_icon_grey.svg" alt="plane-icon-grey">
+                    </div>
                     <div class="landing-cities-input">
                         <span class="landing-cities-input-title">Going to</span>
                         <select class="cities-switcher" id="cities">
@@ -60,19 +59,22 @@
                 </div>
                 <div class="landing-date">
                     <div class="landing-date-input">
-                        <span class="landing-date-input-title"><i class="landing-data-input-title-icon"></i>Leave</span>
+                        <span class="landing-date-input-title"><img class="landing-data-input-title-icon"
+                            src="img/right_plane_icon.svg" alt="right-plane-icon">
+                            Leave</span>
                         <input class="scheduler" type="date" id="date" min="2023-02-19" max="2023-12-31">
                     </div>
-                    <i class="landing-date-icon">
-
-                    </i>
+                    <div class="landing-date-icon">
+                        <img class="landing-date-icon-img" src="img/schedule_icon.svg" alt="calendar_icon">  
+                    </div>
                     <div class="landing-date-input">
-                        <span class="landing-date-input-tittle"><i class="landing-cities-input-title-icon"></i>Return</span>
+                        <span class="landing-date-input-tittle"><img class="landing-cities-input-title-icon" 
+                            src="img/left_plane_icon.svg" alt="left-lane-icon">Return</span>
                         <input class="scheduler" type="date" id="date" min="2023-02-19" max="2023-12-31">
                     </div>
                 </div>
                 <button class="booking-btn">
-                        Search
+                        <img class="booking-btn-icon" src="img/btn_icon.svg" alt="booking-bar-icon">
                 </button>
             </div>
         </section>
@@ -85,7 +87,7 @@
                 <a class="special-offers-link" href="#">Family</a>
             </nav>
             <div class="section-offers">
-                <img class="section-offers-image" src="">
+                <img class="section-offers-image" src="img/offers-card-beach.png" alt="section-offers-image-beach">
                 <time class="holiday-date" datetime="14.02.2022"></time>
                 <span class="holiday-type">Relax</span>
                 <span class="holiday-duration">3 Days, 3 Nights</span>
@@ -94,7 +96,7 @@
                 <button class="offers-buy-btn">Book Now</button>
             </div>
             <div class="section-offers">
-                <img class="section-offers-image" src="">
+                <img class="section-offers-image" src="img/offers-card-cliff.png" alt="section-offers-image-cliff">
                 <time class="holiday-date" datetime="18.06.2022"></time>
                 <span class="holiday-type">Adventure</span>
                 <span class="holiday-duration">4 Days, 3 Nights</span>
@@ -103,7 +105,7 @@
                 <button class="offers-buy-btn">Book Now</button>
             </div>
             <div class="section-offers">
-                <img class="section-offers-image" src="">
+                <img class="section-offers-image" src="img/offers-card-lake.png" alt="section-offers-image-lake">
                 <time class="holiday-date" datetime="22.12.2022"></time>
                 <span class="holiday-type">Relax</span>
                 <span class="holiday-duration">7 Days, 6 Nights</span>
@@ -114,7 +116,7 @@
         </section>
     
         <section class="about">
-            <img class="about-img" src="">
+            <img class="about-img" src="img/img-about-us.png" alt="about-img">
             <div class="about-statistic">
                 <span class="statistic-title">5000+</span>
                 <span class="statistic-subtitle">TOURISTS</span>
@@ -151,50 +153,50 @@
             </nav>
             <div class="destination-cards">
                 <div class="destination-card">
-                    <img class="destination-card-img" src="">
+                    <img class="destination-card-img" src="img/destination_card_mount.png" alt="destination-card-img-mount">
                     <span class="destination-card-title">Kina Mountain</span>
                     <span class="destination-card-location">
                         <i class="destination-card-location-icon"></i>
                         Cambodia
                     </span>
                     <span class="destination-card-rate">
-                        <i class="destination-card-rate-icon"></i>
+                        <img class="destination-card-rate-icon" src="img/star.svg" alt="destination-card-rate-icon-star">
                         3.4
                     </span>
                 </div>
                 <div class="destination-card">
-                    <img class="destination-card-img" src="">
+                    <img class="destination-card-img" src="img/destination_card_field.png" alt="destination-card-img-field">
                     <span class="destination-card-title">Kina Mountain</span>
                     <span class="destination-card-location">
                         <i class="destination-card-location-icon"></i>
                         Cambodia
                     </span>
                     <span class="destination-card-rate">
-                        <i class="destination-card-rate-icon"></i>
+                        <img class="destination-card-rate-icon" src="img/star.svg" alt="destination-card-rate-icon-star">
                         4.5
                     </span>
                 </div>
                 <div class="destination-card">
-                    <img class="destination-card-img" src="">
+                    <img class="destination-card-img" src="img/destination_card_ocean.png" alt="destination-card-img-ocean">
                     <span class="destination-card-title">Kina Mountain</span>
                     <span class="destination-card-location">
                         <i class="destination-card-location-icon"></i>
                         Cambodia
                     </span>
                     <span class="destination-card-rate">
-                        <i class="destination-card-rate-icon"></i>
+                        <img class="destination-card-rate-icon" src="img/star.svg" alt="destination-card-rate-icon-star">
                         4.2
                     </span>
                 </div>
                 <div class="destination-card">
-                    <img class="destination-card-img" src="">
+                    <img class="destination-card-img" src="img/destination_card_palms.png" alt="destination-card-img-palms">
                     <span class="destination-card-title">Kina Mountain</span>
                     <span class="destination-card-location">
                         <i class="destination-card-location-icon"></i>
                         Cambodia
                     </span>
                     <span class="destination-card-rate">
-                        <i class="destination-card-rate-icon"></i>
+                        <img class="destination-card-rate-icon" src="img/star.svg" alt="destination-card-rate-icon-star">
                         3.5
                     </span>
                 </div>
@@ -203,7 +205,7 @@
 
         <section class="feedback">
             <div class="feedback-card">
-                <img class="feedback-card-back-img" src="">
+                <img class="feedback-card-back-img" src="img/commas.svg" alt="comma">
                 <p class="feedback-card-text">
                     Our trip to Morocco was truly a onece in a lifetime 
                     experience and we are so grateful to everyone that made it happen seamlessly. 
@@ -211,12 +213,13 @@
                 <span class="feedback-card-username">-Vand D</span>
                 <span class="feedback-card-status">Happy Treloo</span>
                 <div class="profile">
-                    <img class="profile-img" src="" alt="">
-                    <span class="profile-grade"><i class="profile-grade-icon">4.5</i></span>
+                    <img class="profile-img" src="img/avatar_girl.png" alt="profile-img-girl">
+                    <span class="profile-grade"><img class="destination-card-rate-icon" 
+                        src="img/star.svg" alt="destination-card-rate-icon-star">4.5</span>
                 </div>
             </div>
             <div class="feedback-card">
-                <img class="feedback-card-back-img" src="">
+                <img class="feedback-card-back-img" src="img/commas.svg" alt="comma">
                 <p class="feedback-card-text">
                     Our trip to Morocco was truly a onece in a lifetime experience 
                     and we are so grateful to everyone that made it happen seamlessly. 
@@ -225,8 +228,10 @@
                 <span class="feedback-card-username">-Tru Vio</span>
                 <span class="feedback-card-status">Happy Treloo</span>
                 <div class="profile">
-                    <img class="profile-img" src="" alt="">
-                    <span class="profile-grade"><i class="profile-grade-icon"></i>4.5</span>
+                    <img class="profile-img" src="img/avatar_boy.png" alt="profile-img-boy">
+                    <span class="profile-grade"><img class="destination-card-rate-icon" 
+                        src="img/star.svg" alt="destination-card-rate-icon-star">
+                        4.5</span>
                 </div>
             </div>
             <div class="feedback-nav-link">
@@ -235,7 +240,7 @@
             </div>
         </section>
         <section class="discount">
-            <img class="discount-img" src="" alt="">
+            <img class="discount-img" src="img/register_image.png" alt="discount-img">
             <h2 class="discount-title">Don’t Miss The 50% Discount if You register Today</h2>
             <a class="discount-register-link" href="#">Register Today</a>
         </section>
