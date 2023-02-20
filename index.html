@@ -1,3 +1,7 @@
+<!-- LINK TO DESIGN -->
+<!-- https://www.figma.com/file/IPxyIrcZM3j4cMgMDSYzBp/Travel-Agency-Web-UI-(Community)?node-id=2%3A2&t=CMtMwFeErqtHb4BG-0 -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +11,243 @@
     <title>Document</title>
 </head>
 <body>
+    <img class="background-img" src="" alt="Background" />
+    <header class="header">
+        <span class="header-logo">Trello</span>
+        <nav class="header-nav">
+            <a class="header-link" href="#">Review</a>
+            <a class="header-link" href="#">Tips</a>
+            <a class="header-link" href="#">Alerts</a>
+            <a class="header-link" href="#">Blog</a>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="banner">
+            <div>
+                <h1 class="banner-header">Discover Your Life, Travel Where You Want</h1>
+                <p class="banner-text">Would you explore natur paradise in the world, let’s find the best destination in world with us.</p>
+            </div>
+        </section>
+       
+        <section class="booking">
+            <div class="booking-bar">
+                <button class="booking-bar-btn"><i class="booking-bar-icon"></i>Flight</button>
+                <button class="booking-bar-btn"><i class="booking-bar-icon"></i>Hotel</button>
+            </div>
+            <div class="landing">
+                <div class="landing-cities">
+                    <div class="landing-cities-input">
+                        <span class="landing-cities-input-title">Living From</span>
+                        <select class="cities-switcher" id="cities">
+                            <option value="new-york">New York</option>
+                            <option value="kiev">Kiev</option>
+                            <option value="berlin">Berlin</option>
+                            <option value="toronto">Toronto</option>
+                        </select>
+                    </div>
+                    <i class="landing-cities-icon">
+
+                    </i>
+                    <div class="landing-cities-input">
+                        <span class="landing-cities-input-title">Going to</span>
+                        <select class="cities-switcher" id="cities">
+                            <option value="new-york">New York</option>
+                            <option value="kiev">Kiev</option>
+                            <option value="berlin">Berlin</option>
+                            <option value="toronto">Toronto</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="landing-date">
+                    <div class="landing-date-input">
+                        <span class="landing-date-input-title"><i class="landing-data-input-title-icon"></i>Leave</span>
+                        <input class="scheduler" type="date" id="date" min="2023-02-19" max="2023-12-31">
+                    </div>
+                    <i class="landing-date-icon">
+
+                    </i>
+                    <div class="landing-date-input">
+                        <span class="landing-date-input-tittle"><i class="landing-cities-input-title-icon"></i>Return</span>
+                        <input class="scheduler" type="date" id="date" min="2023-02-19" max="2023-12-31">
+                    </div>
+                </div>
+                <button class="booking-btn">
+                        Search
+                </button>
+            </div>
+        </section>
+
+        <section class="special-offers">
+            <h1 class="special-offers-title">Special Upcoming Offers</h1>
+            <nav class="special-offers-nav">
+                <a class="special-offers-link" href="#">Team</a>
+                <a class="special-offers-link" href="#">Couple</a>
+                <a class="special-offers-link" href="#">Family</a>
+            </nav>
+            <div class="section-offers">
+                <img class="section-offers-image" src="">
+                <time class="holiday-date" datetime="14.02.2022"></time>
+                <span class="holiday-type">Relax</span>
+                <span class="holiday-duration">3 Days, 3 Nights</span>
+                <span class="section-offers-title">Loga Sea</span>
+                <span class="offers-price"><b>700$</b>/Person</span>
+                <button class="offers-buy-btn">Book Now</button>
+            </div>
+            <div class="section-offers">
+                <img class="section-offers-image" src="">
+                <time class="holiday-date" datetime="18.06.2022"></time>
+                <span class="holiday-type">Adventure</span>
+                <span class="holiday-duration">4 Days, 3 Nights</span>
+                <span class="section-offers-title">Ansgar Scheffold</span>
+                <span class="offers-price"><b>400$</b>/Person</span>
+                <button class="offers-buy-btn">Book Now</button>
+            </div>
+            <div class="section-offers">
+                <img class="section-offers-image" src="">
+                <time class="holiday-date" datetime="22.12.2022"></time>
+                <span class="holiday-type">Relax</span>
+                <span class="holiday-duration">7 Days, 6 Nights</span>
+                <span class="section-offers-title">Lona X</span>
+                <span class="offers-price"><b>340$</b>/Person</span>
+                <button class="offers-buy-btn">Book Now</button>
+            </div>
+        </section>
     
+        <section class="about">
+            <img class="about-img" src="">
+            <div class="about-statistic">
+                <span class="statistic-title">5000+</span>
+                <span class="statistic-subtitle">TOURISTS</span>
+            </div>
+            <div class="about-statistic">
+                <span class="statistic-title">300+</span>
+                <span class="statistic-subtitle">DESTINATIONS</span>
+            </div>
+            <div class="about-statistic">
+                <span class="statistic-title">150+</span>
+                <span class="statistic-subtitle">HOTELS</span>
+            </div>
+            <h2 class="about-title">Travel Any Corner of The World With Us</h2>
+            <p class="about-text">
+                Would you explore nature paradise in the world, 
+                let’s find the best destination in world with us, 
+                Would you explore nature paradise in the world, let’s 
+                find the best destination in world with us. 
+                Would you explore nature paradise in the world, 
+                let’s find the best destination in world with us.
+
+                Would you explore nature paradise in the world, 
+                let’s find the best destination in world with us.
+            </p>
+            <a class="about-btn" href="#">Contact Us</a>
+        </section>
+
+        <section class="destination">
+            <h2 class="destination-title">Recommended Destination</h2>
+            <nav class="destination-nav">
+                <a class="destination-link" href="#">Popular</a>
+                <a class="destination-link" href="#">Adventure</a>
+                <a class="destination-link" href="#">Beath</a>
+            </nav>
+            <div class="destination-cards">
+                <div class="destination-card">
+                    <img class="destination-card-img" src="">
+                    <span class="destination-card-title">Kina Mountain</span>
+                    <span class="destination-card-location">
+                        <i class="destination-card-location-icon"></i>
+                        Cambodia
+                    </span>
+                    <span class="destination-card-rate">
+                        <i class="destination-card-rate-icon"></i>
+                        3.4
+                    </span>
+                </div>
+                <div class="destination-card">
+                    <img class="destination-card-img" src="">
+                    <span class="destination-card-title">Kina Mountain</span>
+                    <span class="destination-card-location">
+                        <i class="destination-card-location-icon"></i>
+                        Cambodia
+                    </span>
+                    <span class="destination-card-rate">
+                        <i class="destination-card-rate-icon"></i>
+                        4.5
+                    </span>
+                </div>
+                <div class="destination-card">
+                    <img class="destination-card-img" src="">
+                    <span class="destination-card-title">Kina Mountain</span>
+                    <span class="destination-card-location">
+                        <i class="destination-card-location-icon"></i>
+                        Cambodia
+                    </span>
+                    <span class="destination-card-rate">
+                        <i class="destination-card-rate-icon"></i>
+                        4.2
+                    </span>
+                </div>
+                <div class="destination-card">
+                    <img class="destination-card-img" src="">
+                    <span class="destination-card-title">Kina Mountain</span>
+                    <span class="destination-card-location">
+                        <i class="destination-card-location-icon"></i>
+                        Cambodia
+                    </span>
+                    <span class="destination-card-rate">
+                        <i class="destination-card-rate-icon"></i>
+                        3.5
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <div class="feedback-card">
+                <img class="feedback-card-back-img" src="">
+                <p class="feedback-card-text">
+                    Our trip to Morocco was truly a onece in a lifetime 
+                    experience and we are so grateful to everyone that made it happen seamlessly. 
+                    Our travel planner, Jaouad, was increadible.</p>
+                <span class="feedback-card-username">-Vand D</span>
+                <span class="feedback-card-status">Happy Treloo</span>
+                <div class="profile">
+                    <img class="profile-img" src="" alt="">
+                    <span class="profile-grade"><i class="profile-grade-icon">4.5</i></span>
+                </div>
+            </div>
+            <div class="feedback-card">
+                <img class="feedback-card-back-img" src="">
+                <p class="feedback-card-text">
+                    Our trip to Morocco was truly a onece in a lifetime experience 
+                    and we are so grateful to everyone that made it happen seamlessly. 
+                    Our travel planner, Jaouad, was increadible.
+                </p>
+                <span class="feedback-card-username">-Tru Vio</span>
+                <span class="feedback-card-status">Happy Treloo</span>
+                <div class="profile">
+                    <img class="profile-img" src="" alt="">
+                    <span class="profile-grade"><i class="profile-grade-icon"></i>4.5</span>
+                </div>
+            </div>
+            <div class="feedback-nav-link">
+                <a class="feedback-nav-link" href="#"><img class="feedback-nav-link-img" src="" alt=""></a>
+                <a class="feedback-nav-link" href="#"><img class="feedback-nav-link-img" src="" alt=""></a>
+            </div>
+        </section>
+        <section class="discount">
+            <img class="discount-img" src="" alt="">
+            <h2 class="discount-title">Don’t Miss The 50% Discount if You register Today</h2>
+            <a class="discount-register-link" href="#">Register Today</a>
+        </section>
+    </main>
+    <footer class="footer">
+        <span class="footer-logo">© 2022 Treloo LLC - All right reserved.</span>
+        <nav class="footer-nav">
+            <a class="footer-nav-link" href="#">Review</a>
+            <a class="footer-nav-link" href="#">Tips</a>
+            <a class="footer-nav-link" href="#">Alerts</a>
+            <a class="footer-nav-link" href="#">Blog</a>
+        </nav>
+    </footer>
 </body>
 </html>
