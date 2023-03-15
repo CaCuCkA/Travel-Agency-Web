@@ -1,0 +1,35 @@
+@media (max-width: 1375px) {
+    .landing-box {
+        display: flexbox;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+        min-width: 525px;
+    }
+
+    .landing-cities, .landing-date, .booking-btn {
+        margin-bottom: 30px;
+    }
+
+    .section-offers-wrapper {
+        display: flexbox;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+        min-width: 380px;
+    }
+
+    .destination-cards-wrapper {
+        display: flexbox;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .destination-card {
+        margin-bottom: 30px;
+    }
+}
