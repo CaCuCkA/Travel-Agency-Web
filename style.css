@@ -824,7 +824,6 @@ body {
 .feedback-card-text {
     width: 508px;
     height: 167px;
-    margin-top: 84px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -838,7 +837,7 @@ body {
     width: 131px;
     height: 104px;
     position: absolute;
-    top: 35px;
+    top: 36px;
 }
 
 
@@ -878,17 +877,61 @@ body {
     clip-path: ellipse(farthest-side closest-side);
     display: flex;
     position: absolute;
-    top: 35px;
     background-color: #FFFFFF;
     justify-content: center;
     align-items: center;
-    top: 350px
+    top: 331px
+}
+
+
+.feedback-card-rate {
+    position: absolute;
+    top: 25px;
+    left: 107px;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+    width: 45px;
+    height: 20px; 
+    background: #FFFFFF;
+    border-radius: 25px;
 }
 
 
 .profile-img {
     width: 100px;
     height: 100px;
+}
+
+
+.feedback-nav-link-wrapper {
+    margin-top: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.feedback-nav-link {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.feedback-nav-link a{
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(62, 134, 245, 0.5);
+    border-radius: 15px;
+}
+
+
+.feedback-nav-link a:hover {
+    opacity: 0.6;
 }
 
 

@@ -32,4 +32,17 @@
     .destination-card {
         margin-bottom: 30px;
     }
+
+    .feedback-card-wrapper {
+        display: flexbox;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+        min-width: 580px;
+    }
+
+    .feedback-card {
+        margin-bottom: 80px;
+    }
 }
