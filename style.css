@@ -44,6 +44,7 @@ body {
     padding: 1% 10%;
     justify-content: space-between;
     align-items: center;
+
     color: #FFFFFF;
   }
 
@@ -71,6 +72,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
 }
 
 
@@ -942,4 +948,63 @@ body {
 
 .discount-register-link:hover {
     opacity: 0.7;
+}
+
+
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    min-height: 80px;
+    width: 100%;
+}
+
+
+.footer-logo {
+    margin-left: 130px;
+    width: 372px;
+    height: 42px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.footer-nav {
+    width: 30%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-right: 130px;
+}
+
+.footer a {
+    width: 85px;
+    height: 36px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+
+
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.footer a:hover {
+    opacity: 0.6;
 }
